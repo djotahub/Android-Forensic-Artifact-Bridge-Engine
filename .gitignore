@@ -1,0 +1,130 @@
+========================
+
+1. ENTORNO DE DESARROLLO (PYTHON)
+
+========================
+
+Entornos virtuales locales
+
+venv/
+env/
+.env
+
+Archivos compilados y caché de Python
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+IDEs y Editores (Configuraciones personales)
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+========================
+
+2. DATOS SENSIBLES Y EVIDENCIA FORENSE (CRÍTICO: NO SUBIR)
+
+========================
+
+Estas carpetas contienen datos reales de extracciones.
+
+Subirlas a GitHub podría violar leyes de privacidad y cadena de custodia.
+
+cases/
+output/
+logs/
+
+Archivos de reportes y dumps sueltos
+
+*.json
+*.html
+*.txt
+*.log
+*.csv
+*.pdf
+
+========================
+
+3. BINARIOS Y HERRAMIENTAS EXTERNAS
+
+========================
+
+El usuario debe proveer sus propios binarios por razones de Licencia y Seguridad.
+
+No subir ejecutables de Windows/Linux al repo.
+
+Herramientas de Android (Platform Tools)
+
+adb.exe
+fastboot.exe
+AdbWinApi.dll
+AdbWinUsbApi.dll
+dmtracedump.exe
+etc1tool.exe
+hprof-conv.exe
+libwinpthread-1.dll
+make_f2fs.exe
+make_f2fs_casefold.exe
+mke2fs.exe
+sqlite3.exe
+
+Payloads y Exploits
+
+GitHub puede marcar el repo como malware si detecta exploits conocidos.
+
+bin/payloads/.apk
+bin/payloads/.jar
+bin/payloads/exploit*
+bin/payloads/mtk-su*
+bin/payloads/dirtypipe*
+
+========================
+
+4. ARCHIVOS TEMPORALES DE EJECUCIÓN
+
+========================
+
+Archivos generados durante el proceso de extracción que no son evidencia final.
+
+temp_view_dump.xml
+screen_dump.xml
+window_dump.xml
+temp_view.xml
+*.ab
+*.tar
+*.db
+*.db-journal
+.crypt
+whatsapp_ram.bin
+whatsapp_ram.hprof
+
+========================
+
+5. SISTEMA OPERATIVO
+
+========================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
